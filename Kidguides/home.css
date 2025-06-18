@@ -1502,6 +1502,7 @@ body {
         width: 100%;
         text-align: left;
         margin: 20px 0;
+        margin-left: 8vw;
     }
 
     .adv-text1-point-block {
@@ -1511,6 +1512,10 @@ body {
     .adv-text1-subpoint-block {
         width: 75%;
         font-size: 16px;
+    }
+
+    #adv-text1-point5-block {
+        margin-right: 20vw;
     }
 
     .adv-img1-block-new {
@@ -1904,7 +1909,19 @@ body {
         padding-left: 2vw;
     }
 
+    .blog-content-intro {
+        padding-left: 0;
+    }
+    .blog-content-intro-txt {
+        padding-left: 3vw;
+    }
 
+    .blog-content-point-txt {
+        padding-left: 5vw;
+    }
+    .blog-content-point-subtxt {
+        margin-left: 2vw;
+    }
 
 
     
@@ -2239,7 +2256,8 @@ body {
 
     .rev-parent-tutor-heading {
         /* font-size: 4.5vw; */
-        font-size: 25px;
+        font-size: 30px;
+        font-weight: 900;
         padding-left: 5vw;
         margin: 40px 10px 5px 0;
     }
