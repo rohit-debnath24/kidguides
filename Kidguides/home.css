@@ -256,6 +256,7 @@ background: radial-gradient(circle, rgba(0,249,255,0.4705531870951506) 6%, rgba(
 
 .social button {
     border-radius: 20px;
+    margin: 0%;
     /* width: 30px; */
     /* height: 30px; */
 }
@@ -497,10 +498,11 @@ body {
         position: fixed;
         top: 0;
         left: -100%;
+        height: 100%;
         width: 80%;
         /* Adjust width as desired */
         height: 100vh;
-        background-color: rgb(143, 249, 81);
+        background-color: rgb(3, 245, 245);
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -600,18 +602,24 @@ body {
         background: none;
     }
 
-    .fa-instagram {
+    /* .fa-instagram {
         color: rgb(244, 4, 96);
         font-size: 30px;
+    } */
+    .insta img{
+        height: 37px;
+        width: 32px;
     }
-
-    .insta img {
+    .facebook{
+        padding-left: 300px;
+    }
+    /* .fa-instagram{
         position: absolute;
         bottom: 13px;
         height: 35px;
         width: 35px;
         padding-bottom: 0;
-    }
+    } */
 }
 
 /* **********************************************************hide menu and clos button from desktop mode   */
@@ -767,6 +775,33 @@ body {
     }
 }
 
+
+
+/********************************top bar insta logo on pc sizing*********************************/
+/* .insta{
+    margin:5px;
+    width: auto;
+    height:auto;
+   
+    object-fit: cover;
+
+    
+}
+.facebook{
+    margin-bottom: 5px;
+    
+    height:36px;
+    object-fit: cover;
+} */
+ .social{
+    display: flex;
+    grid-row: auto;
+   
+ }
+ .social button{
+    border: #00ff99;
+    cursor: pointer;
+ }
 /* *************************************middle text**************   */
 @media only screen and (max-width: 768px) {
 
