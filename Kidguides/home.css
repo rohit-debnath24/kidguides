@@ -7,7 +7,7 @@ html {
     display: flex;
     height: 3vw;
     background: hsl(89, 81%, 72%) 86%;
-    background: rgb(23, 17, 90);
+    background: rgb(2, 2, 77);
     color: white;
 
 }
@@ -115,7 +115,7 @@ li a {
 .effect:hover {
     transform: scale(1.1);
     /* Increases size on hover */
-    box-shadow: 0px 5px 15px rgb(24, 143, 3);
+    box-shadow: 0px 5px 15px rgb(15, 4, 101);
     /* Adds a shadow */
 }
 
@@ -256,6 +256,7 @@ background: radial-gradient(circle, rgba(0,249,255,0.4705531870951506) 6%, rgba(
 
 .social button {
     border-radius: 20px;
+    margin: 0%;
     /* width: 30px; */
     /* height: 30px; */
 }
@@ -500,7 +501,7 @@ body {
         width: 80%;
         /* Adjust width as desired */
         height: 100vh;
-        background-color: rgb(143, 249, 81);
+        background-color: rgb(6, 227, 239);
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -600,18 +601,24 @@ body {
         background: none;
     }
 
-    .fa-instagram {
+    /* .fa-instagram {
         color: rgb(244, 4, 96);
         font-size: 30px;
+    } */
+    .insta img{
+        height: 37px;
+        width: 32px;
     }
-
-    .insta img {
+    .facebook{
+        padding-left: 300px;
+    }
+    /* .fa-instagram{
         position: absolute;
         bottom: 13px;
         height: 35px;
         width: 35px;
         padding-bottom: 0;
-    }
+    } */
 }
 
 /* **********************************************************hide menu and clos button from desktop mode   */
@@ -767,6 +774,33 @@ body {
     }
 }
 
+
+
+/********************************top bar insta logo on pc sizing*********************************/
+/* .insta{
+    margin:5px;
+    width: auto;
+    height:auto;
+   
+    object-fit: cover;
+
+    
+}
+.facebook{
+    margin-bottom: 5px;
+    
+    height:36px;
+    object-fit: cover;
+} */
+ .social{
+    display: flex;
+    grid-row: auto;
+   
+ }
+ .social button{
+    border: #00ff99;
+    cursor: pointer;
+ }
 /* *************************************middle text**************   */
 @media only screen and (max-width: 768px) {
 
@@ -1251,7 +1285,7 @@ body {
 .adv-text1-point-holder-block {
     /* height: 30%; */
     height: auto;
-    width: 48%;
+    width: 47%;
     /* border:rgb(31, 31, 31) solid 2px; */
     display: flex;
     flex-direction: column;
@@ -1259,7 +1293,7 @@ body {
     /* justify-content: center; */
     /* margin-right: 3%;
     margin-top: 5%; */
-    margin: 30px 10px 20px 0;
+    margin: 30px 10px 0 0;
 
 }
 
@@ -1277,10 +1311,6 @@ body {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 12px;
-}
-
-#adv-text1-point5-heading2-block {
-    display: none;
 }
 
 .adv-text1-subpoint-block {
@@ -1527,25 +1557,6 @@ body {
 
     #adv-text1-point5-block {
         margin-right: 20vw;
-    }
-
-    #adv-text1-point5-heading1-block {
-        display: none;
-    }
-
-    #adv-text1-point5-heading2-block {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        color: rgb(47, 47, 47);
-        /* font-size: 2.1vw; */
-        font-size: 20px;
-        font-weight: 700;
-        margin-bottom: 12px;
-    }
-
-    #adv-text1-subpoint5-block {
-        padding-left: 40px;
     }
 
     .adv-img1-block-new {
@@ -2279,13 +2290,9 @@ body {
         flex-wrap: wrap;
     }
 
-    .rev-content-heading-txt1 {
-        font-size: 40px;
-        margin-right: 120px;
-    }
+    .rev-content-heading-txt1,
     .rev-content-heading-txt2 {
         font-size: 40px;
-        margin-left: 120px;
     }
 
     .rev-parent-tutor-heading {
