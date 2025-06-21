@@ -7,7 +7,7 @@ html {
     display: flex;
     height: 3vw;
     background: hsl(89, 81%, 72%) 86%;
-    background: rgb(0, 0, 0);
+    background: rgb(23, 17, 90);
     color: white;
 
 }
@@ -48,7 +48,9 @@ html {
     background: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, rgba(7, 235, 11, 0.7674719546021533) 100%);
     background: rgb(244, 244, 244);
     /* background: linear-gradient(355deg, rgba(244, 244, 244, 1) 48%, rgba(19, 221, 238, 1) 86%); */
-    background-color: rgb(76, 224, 76);
+    background-color: rgb(6, 202, 241);
+     /* background-image: url("middle_background.jpg"); */
+     /* background-size: cover; */
     /* background-color: #fefbd8; */
 
     padding-bottom: 10px;
@@ -181,7 +183,7 @@ button a {
 
 
 
-    background-image: url("img3.png");
+    background-image: url("middle_background.jpg");
 
     /* background: rgb(63,196,251);
      background: radial-gradient(circle, rgba(63,196,251,0.4705531870951506) 6%, rgba(4,250,240,1) 70%);
@@ -914,18 +916,23 @@ body {
         /* Full-width container for buttons */
         justify-content: flex-start;
         /* Align buttons to the left */
+        
+       padding-left: 5vw;
+       margin-left: 0vw;
         margin-top: 15px;
         /* Reduced space between text and buttons */
     }
 
     .Tutor {
-        width: 40%;
+      
+        width: 40vw;
         /* Make buttons take up 45% of the width */
         font-size: 4vw;
         /* Use smaller font size for mobile buttons */
-        height: auto;
+        height: 6%;
         padding: 12px;
         box-sizing: border-box;
+       
         margin-bottom: 10px;
         text-align: center;
         /* Center text inside buttons */
