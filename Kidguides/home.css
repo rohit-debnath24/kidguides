@@ -426,6 +426,7 @@ body {
 
     /* Hide the nav list off-canvas by default */
     .navbar .navul {
+        margin: 0;
         position: fixed;
         top: 0;
         right: -100%;
