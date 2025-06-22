@@ -210,7 +210,7 @@ background: radial-gradient(circle, rgba(0,249,255,0.4705531870951506) 6%, rgba(
 
 .middle img {
 
-    height: 70vh;
+    /* height: 70vh; */
     width: 30vw;
     padding-top: 0;
     margin-top: 0;
@@ -287,8 +287,8 @@ background: radial-gradient(circle, rgba(0,249,255,0.4705531870951506) 6%, rgba(
     height: 4vw;
     width: 20vw;
     background-color: #007BFF;
-    margin-top: 10%;
-    padding: 10px 20px;
+    /* margin-top: 10%; */
+    /* padding: 10px 20px; */
     color: white;
     text-decoration: none;
     border-radius: 5px;
