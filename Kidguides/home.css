@@ -2465,7 +2465,9 @@ body {
     /* top: 10%; */
 
   }
-  .gr{color: rgb(39, 203, 14);}
+  .gr-up{font-size: 40px;}
+  .gr{ font-size: 40px;
+    color: rgb(39, 203, 14);}
 
 
 
@@ -2619,7 +2621,7 @@ background: radial-gradient(circle, rgba(254,251,216,1) 6%, rgba(250,255,255,1) 
 
     .heading h1,
     .heading .gr {
-        font-size: 22px; /* Slightly smaller font size */
+        font-size: 30px; /* Slightly smaller font size */
         line-height: 1.2;
         margin: 0;  /* Remove extra space */
     }
