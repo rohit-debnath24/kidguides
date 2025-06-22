@@ -1270,6 +1270,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: start;
+    align-items: stretch;
 }
 
 .adv-text2-block {
@@ -1284,18 +1285,23 @@ body {
 
 .adv-text1-point-holder-block {
     /* height: 30%; */
-    height: auto;
+    /* height: 10vw; */
     width: 48%;
-    /* border:rgb(31, 31, 31) solid 2px; */
+    border:rgb(134, 134, 134) solid 2px;
+    border-radius: 30px;
+    background-color: #ffffff30;
+    backdrop-filter: blur(10px);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
     align-items: start;
     /* justify-content: center; */
     /* margin-right: 3%;
     margin-top: 5%; */
-    margin: 30px 10px 20px 0;
+    margin: 30px 12px 10px 0;
 
 }
+
 
 .fa-check-double {
     color: rgb(50, 172, 89);
@@ -1311,6 +1317,7 @@ body {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 12px;
+    padding: 20px 20px 0 20px;
 }
 
 #adv-text1-point5-heading2-block {
@@ -1318,21 +1325,28 @@ body {
 }
 
 .adv-text1-subpoint-block {
-    padding-left: 12%;
     /* font-size: 1.6vw; */
     font-size: 18px;
     font-family: Urbanist, sans-serif;
     color: rgb(81, 81, 81);
+    padding: 0 20px 20px;
+    padding-left: 55px;
 }
 
 #adv-text1-subpoint5-block {
-    padding-left: 7%;
+    padding-bottom: 40px;
 }
+
+.adv-text1-point-holder-block:hover {
+    scale: 105% 105%;
+    transition: 0.5s;
+}
+
 
 #adv-text1-point5-block {
     /* height: 30%; */
     height: auto;
-    width: 80%;
+    width: 100%;
     /* border:rgb(31, 31, 31) solid 2px; */
 }
 
@@ -1548,15 +1562,27 @@ body {
         text-align: left;
         margin: 20px 0;
         margin-left: 8vw;
+        border: none;
+        background-color: #00000000;
+        backdrop-filter: blur(0px);
+        box-shadow: none;
+    }
+
+    .adv-text1-point-holder-block:hover {
+        scale: 100%;
     }
 
     .adv-text1-point-block {
         font-size: 20px;
+        padding: 20px 20px 0 20px;
+        padding: 0;
     }
 
     .adv-text1-subpoint-block {
         width: 75%;
         font-size: 16px;
+        padding: 0 20px 20px;
+        padding-left: 40px;
     }
 
     #adv-text1-point5-block {
