@@ -1114,6 +1114,8 @@ body {
     width: 92vw;
     margin: 20px 0vw 5vw 0vw;
     padding: 3vw;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
     /* background: rgb(9, 9, 121); */
     background: linear-gradient(165deg, rgba(255, 255, 255, 0) 15%, rgb(116, 220, 208) 25%, rgba(255, 255, 255, 0.806) 50%, rgb(129, 185, 219) 75%, rgba(218, 218, 218, 0) 90%);
 }
@@ -1228,9 +1230,9 @@ body {
 }
 
 .adv-sub2-block {
-    height: 5%;
+    /* height: 5%; */
     width: 100%;
-    min-height: 50px;
+    /* min-height: 50px; */
     /* background-color: aquamarine; */
     text-align: end;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
