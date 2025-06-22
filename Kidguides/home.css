@@ -1214,9 +1214,9 @@ body {
 }
 
 .adv-sub1-block {
-    height: 5%;
+    /* height: 5%; */
     width: 100%;
-    min-height: 50px;
+    /* min-height: 50px; */
     /* background-color: aquamarine; */
     color: #04396b;
     text-emphasis-color: inherit;
