@@ -120,7 +120,7 @@ li a {
 }
 
 .effect {
-    /* color: white; */
+    color: white;
     text-decoration: none;
     /* Remove default underline */
     padding: 10px 15px;
@@ -502,7 +502,7 @@ body {
         width: 80%;
         /* Adjust width as desired */
         height: 100vh;
-        background-color: rgb(6, 227, 239);
+        background-color: #030656;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -1527,7 +1527,7 @@ body {
     }
 
     .adv-heading-holder-block {
-        height: 150px;
+        height: 90px;
         width: 100%;
         margin-top: 0%;
         background-size: cover;
