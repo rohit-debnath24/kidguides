@@ -175,7 +175,7 @@ button a {
     /* margin-top: 30px; */
 
     font-size: 20px;
-    height: 480px;
+    height: 550px;
     width: 99vw;
     min-width: 470px;
     display: flex;
@@ -183,8 +183,8 @@ button a {
 
 
 
-    background-image: url("middle_background.jpg");
-
+    background-image: url("Picture1.png");
+    /* background-position: -40px -40px; */
     /* background: rgb(63,196,251);
      background: radial-gradient(circle, rgba(63,196,251,0.4705531870951506) 6%, rgba(4,250,240,1) 70%);
      background: rgb(255,255,255);
@@ -227,7 +227,7 @@ background: radial-gradient(circle, rgba(0,249,255,0.4705531870951506) 6%, rgba(
 
 .heading_1 {
     font-family: "Courier New", Courier, monospace;
-
+    backdrop-filter: blur(5px);
     padding-top: 0%;
     padding-bottom: 2%;
     margin-top: 0%;
@@ -242,7 +242,7 @@ background: radial-gradient(circle, rgba(0,249,255,0.4705531870951506) 6%, rgba(
 
 .cont {
 
-
+    backdrop-filter: blur(5px);
     color: rgb(40, 32, 5);
     font-size: 20px;
     margin-top: 0%;
@@ -906,9 +906,12 @@ body {
         box-sizing: border-box;
         width: 100vw;
         /* Full screen width */
-        height: auto;
+        height: 85vh;
         /* Allow height to grow */
         overflow: hidden;
+        background-image: url("newbg.jpg");
+        background-size: 100% 100%;
+        background-position: -15vw 10px;
     }
 
     /* Heading styling adjustments */
@@ -997,7 +1000,9 @@ body {
     }
 
     .middle img {
-        height: 40vh;
+        position: relative;
+        top: 15px;
+        height: 30vh;
         width: 40vw;
         padding-top: 0;
         margin-top: 0;
@@ -1126,9 +1131,9 @@ body {
     height: 214px;
     width: 98vw;
     border-radius: 2vw;
-    background-image: url("AboutUsImg.jpg");
-    /* background-size: 100% 100%; */
-    background-position: 0%;
+    background-image: url("ABOUT_US.png");
+    background-size: 100% 100%;
+    /* background-position: 0%; */
     background-size: cover;
     /* margin-top: 10%; */
 
@@ -1137,7 +1142,7 @@ body {
 .adv-heading-block {
     height: 100%;
     width: 100%;
-    background-color: #000000ba;
+    /* background-color: #000000ba; */
     border-radius: 2vw;
 
     display: flex;
@@ -1148,10 +1153,11 @@ body {
     font-size: 60px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 500;
-    text-shadow:
+ /* text-shadow:
         #00000091 0.3vw 0.3vw 2px,
-        #e8b51cf8 0 0 15px;
-
+        #e8b51cf8 0 0 15px; */
+    background-image: url("ABOUT_US.png");
+    background-size: 100% 100%;
 }
 
 
@@ -1428,7 +1434,7 @@ body {
     border-radius: 2vw;
     border: #034956 solid 0.3vw;
     background-color: aquamarine;
-    background-image: url("WhatsApp Image 2025-03-09 at 20.26.01_68458293.jpg");
+   background-image: url("WhatsApp Image 2025-03-09 at 20.26.01_68458293.jpg");
     background-size: 100% 100%;
     position: relative;
     top: 10%;
@@ -2644,7 +2650,7 @@ background: radial-gradient(circle, rgba(254,251,216,1) 6%, rgba(250,255,255,1) 
 
 /* Footer Styles */
 .footer {
-    background-color: #333;
+    background-color: #020954;
     color: #fff;
     padding: 40px 0;
     margin-top: 50px;
@@ -2698,7 +2704,7 @@ background: radial-gradient(circle, rgba(254,251,216,1) 6%, rgba(250,255,255,1) 
     text-align: center;
     margin-top: 30px;
     padding: 20px;
-    background-color: #222;
+    background-color: #14087a;
 }
 
 .footer-bottom-text {
