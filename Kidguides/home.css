@@ -1748,15 +1748,17 @@ body {
     height: 214px;
     width: 98vw;
     border-radius: 16px;
-    background-image: url("AboutUsImg.jpg");
-    background-position: 0%;
-    background-size: cover;
+    margin-top: 10px;
+    background-image: url("Our_blogs.png");
+    /* background-position: 0%; */
+    /* background-size: cover; */
+    background-size: 100% 100%;
 }
 
 .blog-top-heading {
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.629);
+    /* background-color: rgba(0, 0, 0, 0.629); */
     color: aliceblue;
     border-radius: 16px;
 
@@ -2005,6 +2007,8 @@ body {
     }
 
     .blog-top-heading {
+        background-image: url(Our_blogs.png);
+        background-size: 100% 100%;
         height: 120px;
         width: 94vw;
         font-size: 40px;
