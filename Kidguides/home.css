@@ -917,7 +917,7 @@ body {
         overflow: hidden;
         background-image: url("newbg.jpg");
         background-size: 100% 100%;
-        background-position: -15vw 10px;
+        background-position: -15vw ;
     }
 
     /* Heading styling adjustments */
