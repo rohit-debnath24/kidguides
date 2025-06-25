@@ -1,5 +1,9 @@
 html {
     scroll-behavior: smooth;
+    
+}
+body{
+    overflow-x: hidden;
 }
 
 .topbar {
@@ -922,6 +926,8 @@ body {
 
     /* Heading styling adjustments */
     .heading_1 {
+        /* position: absolute; */
+        top: 18vh;
         font-size: 5vw;
         /* Smaller font size for mobile */
         line-height: 1.2;
@@ -937,6 +943,8 @@ body {
 
     /* Paragraph adjustments */
     .cont {
+        /* position: absolute; */
+        /* top: 25vh; */
         font-size: 3.5vw;
         /* Smaller font size for mobile */
         padding: 0 15px;
@@ -951,6 +959,8 @@ body {
 
     /* Button box adjustments */
     .tutbox {
+        /* position: absolute; */
+        /* top: 47vh; */
         display: flex;
         flex-direction: row;
         /* Align buttons side by side */
@@ -1007,6 +1017,7 @@ body {
 
     .middle img {
         position: relative;
+        /* top: 65vh; */
         top: 15px;
         height: 30vh;
         width: 40vw;
@@ -2699,6 +2710,7 @@ body {
     }
 
     .heading h1 {
+        margin-top: 20px;
         margin-bottom: 0px;
         /* Space between "YOUR DOUBTS" and "OUR ANSWERS" */
     }
@@ -2797,7 +2809,7 @@ body {
 }
 
 .tncbtnN {
-    color: rgb(245, 242, 242);
+    color: rgb(15, 14, 14);
     padding: 8px;
     border-radius: 5px;
     /* border: 2px solid red; */
