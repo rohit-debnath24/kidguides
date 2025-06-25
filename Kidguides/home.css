@@ -120,7 +120,7 @@ li a {
 }
 
 .effect {
-    /* color: white; */
+    color: white;
     text-decoration: none;
     /* Remove default underline */
     padding: 10px 15px;
@@ -175,7 +175,7 @@ button a {
     /* margin-top: 30px; */
 
     font-size: 20px;
-    height: 40vw;
+
     width: 99vw;
     min-width: 470px;
     display: flex;
@@ -183,8 +183,8 @@ button a {
 
 
 
-    background-image: url("middle_background.jpg");
-
+    background-image: url("Picture1.png");
+    /* background-position: -40px -40px; */
     /* background: rgb(63,196,251);
      background: radial-gradient(circle, rgba(63,196,251,0.4705531870951506) 6%, rgba(4,250,240,1) 70%);
      background: rgb(255,255,255);
@@ -210,7 +210,7 @@ background: radial-gradient(circle, rgba(0,249,255,0.4705531870951506) 6%, rgba(
 
 .middle img {
 
-    height: 70vh;
+    /* height: 70vh; */
     width: 30vw;
     padding-top: 0;
     margin-top: 0;
@@ -227,7 +227,7 @@ background: radial-gradient(circle, rgba(0,249,255,0.4705531870951506) 6%, rgba(
 
 .heading_1 {
     font-family: "Courier New", Courier, monospace;
-
+    backdrop-filter: blur(5px);
     padding-top: 0%;
     padding-bottom: 2%;
     margin-top: 0%;
@@ -242,7 +242,7 @@ background: radial-gradient(circle, rgba(0,249,255,0.4705531870951506) 6%, rgba(
 
 .cont {
 
-
+    backdrop-filter: blur(5px);
     color: rgb(40, 32, 5);
     font-size: 20px;
     margin-top: 0%;
@@ -287,8 +287,8 @@ background: radial-gradient(circle, rgba(0,249,255,0.4705531870951506) 6%, rgba(
     height: 4vw;
     width: 20vw;
     background-color: #007BFF;
-    margin-top: 10%;
-    padding: 10px 20px;
+    /* margin-top: 10%; */
+    /* padding: 10px 20px; */
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -362,7 +362,7 @@ body {
         right: -100%;
         width: 70%;
         height: 100vh;
-        background-color: rgb(76, 224, 76);
+        /* background-color: rgb(76, 224, 76); */
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -426,12 +426,13 @@ body {
 
     /* Hide the nav list off-canvas by default */
     .navbar .navul {
+        margin: 0;
         position: fixed;
         top: 0;
         right: -100%;
         width: 100%;
         height: 100vh;
-        background-color: rgb(76, 224, 76);
+        /* background-color: rgb(76, 224, 76); */
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -501,13 +502,14 @@ body {
         width: 80%;
         /* Adjust width as desired */
         height: 100vh;
-        background-color: rgb(6, 227, 239);
+        /* background-color: #030656; */
         flex-direction: column;
         align-items: center;
         justify-content: center;
         transition: left 0.3s ease;
         z-index: 1000;
         overflow-x: hidden;
+        backdrop-filter: blur(25px);
     }
 
     /* Show the nav list when toggled */
@@ -909,9 +911,12 @@ body {
         box-sizing: border-box;
         width: 100vw;
         /* Full screen width */
-        height: auto;
+        height: 85vh;
         /* Allow height to grow */
         overflow: hidden;
+        background-image: url("newbg.jpg");
+        background-size: 100% 100%;
+        background-position: -15vw 10px;
     }
 
     /* Heading styling adjustments */
@@ -1000,7 +1005,9 @@ body {
     }
 
     .middle img {
-        height: 40vh;
+        position: relative;
+        top: 15px;
+        height: 30vh;
         width: 40vw;
         padding-top: 0;
         margin-top: 0;
@@ -1118,27 +1125,29 @@ body {
     width: 92vw;
     margin: 20px 0vw 5vw 0vw;
     padding: 3vw;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
     /* background: rgb(9, 9, 121); */
     background: linear-gradient(165deg, rgba(255, 255, 255, 0) 15%, rgb(116, 220, 208) 25%, rgba(255, 255, 255, 0.806) 50%, rgb(129, 185, 219) 75%, rgba(218, 218, 218, 0) 90%);
 }
 
 .adv-heading-holder-block {
     /* height: 26vw; */
-    height: 214px;
+    height: 136px;
     width: 98vw;
     border-radius: 2vw;
-    background-image: url("AboutUsImg.jpg");
-    /* background-size: 100% 100%; */
-    background-position: 0%;
+    background-image: url("ABOUT_US.png");
+    background-size: 100% 100%;
+    /* background-position: 0%; */
     background-size: cover;
-    margin-top: 10%;
+    /* margin-top: 10%; */
 
 }
 
 .adv-heading-block {
     height: 100%;
     width: 100%;
-    background-color: #000000ba;
+    /* background-color: #000000ba; */
     border-radius: 2vw;
 
     display: flex;
@@ -1149,10 +1158,11 @@ body {
     font-size: 60px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 500;
-    text-shadow:
+ /* text-shadow:
         #00000091 0.3vw 0.3vw 2px,
-        #e8b51cf8 0 0 15px;
-
+        #e8b51cf8 0 0 15px; */
+    background-image: url("ABOUT_US.png");
+    background-size: 100% 100%;
 }
 
 
@@ -1218,9 +1228,9 @@ body {
 }
 
 .adv-sub1-block {
-    height: 5%;
+    /* height: 5%; */
     width: 100%;
-    min-height: 50px;
+    /* min-height: 50px; */
     /* background-color: aquamarine; */
     color: #04396b;
     text-emphasis-color: inherit;
@@ -1232,9 +1242,9 @@ body {
 }
 
 .adv-sub2-block {
-    height: 5%;
+    /* height: 5%; */
     width: 100%;
-    min-height: 50px;
+    /* min-height: 50px; */
     /* background-color: aquamarine; */
     text-align: end;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -1429,7 +1439,7 @@ body {
     border-radius: 2vw;
     border: #034956 solid 0.3vw;
     background-color: aquamarine;
-    background-image: url("WhatsApp Image 2025-03-09 at 20.26.01_68458293.jpg");
+   background-image: url("WhatsApp Image 2025-03-09 at 20.26.01_68458293.jpg");
     background-size: 100% 100%;
     position: relative;
     top: 10%;
@@ -1522,9 +1532,9 @@ body {
     }
 
     .adv-heading-holder-block {
-        height: 150px;
+        height: 90px;
         width: 100%;
-        margin-top: 5%;
+        margin-top: 0%;
         background-size: cover;
     }
 
@@ -2512,16 +2522,13 @@ body {
 
 
 
-.heading {
 
-    padding: 20px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    display: flex;
+
+
     /* position: relative; */
     /* top: 10%; */
 
-}
+
 
 .gr {
     color: rgb(39, 203, 14);
@@ -2680,8 +2687,7 @@ body {
 
     .heading h1,
     .heading .gr {
-        font-size: 22px;
-        /* Slightly smaller font size */
+
         line-height: 1.2;
         margin: 0;
         /* Remove extra space */
@@ -2704,7 +2710,7 @@ body {
 
 /* Footer Styles */
 .footer {
-    background-color: #333;
+    background-color: #020954;
     color: #fff;
     padding: 40px 0;
     margin-top: 50px;
@@ -2758,7 +2764,7 @@ body {
     text-align: center;
     margin-top: 30px;
     padding: 20px;
-    background-color: #222;
+    background-color: #14087a;
 }
 
 .footer-bottom-text {
@@ -2846,4 +2852,3 @@ body {
         /* Decrease the margin-top to reduce space */
     }
 
-}
